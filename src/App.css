@@ -9,31 +9,41 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: fit-content;
+    min-height: 100vh;
     text-align: center;
+    background-color: black;
 }
 #main{
-    background-color: rgb(228, 198, 158);
+    background-color: rgb(130, 159, 247);
     border: 1px solid black;
     padding: 2rem;
+    border-radius: 20px;
+    filter: drop-shadow(1px 1px 8px white);
+    
+}
+#main h1{
+    font-size: 2.4rem;
+   font-family: cursive;
 }
 #main input{
-    font-size: 1rem;
-    height: 2rem;
+    font-size: 1.25rem;
+    height: 2.3rem;
     margin-top: 1rem;
+    font-weight: 500;
 }
 #main #hour{
     width: 4rem;
     margin: 0 0.4rem;
 }
 #main #add{
-    padding: 0.1rem 0.6rem;
+    padding: 0.3rem 0.8rem;
     border-radius: 10px;
     font-size: 1.2rem;
     font-weight: 600;
     background-color: rgb(70, 70, 253);
-    color: wheat;
+    color: rgb(254, 253, 252);
 }
 #plan{
     display: flex;
@@ -42,9 +52,9 @@
     font-size: 1.5rem;
     margin: 1rem;
     padding: 0.5rem;
-    background-color:rgb(136, 47, 47);
+    background-color:rgb(129, 67, 183);
     color: white;
-    filter: drop-shadow(1px 1px 5px rgb(17, 17, 17));
+    filter: drop-shadow(1px 1px 10px rgb(59, 11, 67));
     border-radius: 20px;
 }
 #plan p{
@@ -55,6 +65,7 @@
 #plan button{
     padding: 0.5rem;
     margin:0 0.5rem;
+    border: 2px solid black;
 }
 #plan #inc{
     background-color: rgb(61, 239, 61);
